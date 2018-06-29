@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <div>
+      如果你看到这个你就进入我的githup
+    </div>
     <router-view/>
   </div>
 </template>
