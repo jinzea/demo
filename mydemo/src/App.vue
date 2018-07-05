@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="box">
+    <div class="boxs">
         <ul class="ul">
-            <router-link to="/your" tag="li" style="color: red;">你</router-link>
+            <router-link to="/your/yourson" tag="li" style="color: red;">你</router-link>
             <router-link to="/we" tag="li" style="color:blue;">我</router-link>
             <router-link to="/" tag="li" style="color:orange;">她</router-link>
           </ul>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.box{
+.boxs{
   width: 100%;
   height: 50px;
   border-bottom: 1px solid #ccc;

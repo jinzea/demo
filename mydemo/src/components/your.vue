@@ -21,9 +21,12 @@
     display: flex;
     .left{
         width: 200px;
+        min-width: 200px;
         height: 100%;
         background:#ffffff;
+        overflow:hidden;
         div{
+            width: 200px;
             &:hover{
                 background: #ccc;
             }
@@ -48,10 +51,11 @@
         }
     }
     .right{
-        flex: 1;
         padding: 20px;
         box-sizing: border-box;
         background: #F0F2F3;
+        height: 100%;
+        width: 100%;
     }
 }
 </style>

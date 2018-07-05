@@ -24,6 +24,7 @@ export default new Router({
       path: '/your',
       name: 'your',
       component: your,
+      redirect:"/your/yourson",
       children:[
         {
           path:'www',
